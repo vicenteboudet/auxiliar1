@@ -1,0 +1,10 @@
+<?php
+ if ($_POST["password"]==$_POST["validad_password"]) { 
+   <form action="/ejemplo7/added/" method="post" enctype="multipart/form-data"> 
+}else {
+    <form action="/ejemplo7/error/" method="post" enctype="multipart/form-data">
+}
+?>
+
+                new_user=Usuarios(nombre=request.POST['nombre'],apellido=request.POST['apellido'],direccion=request.POST['direccion'], rut=request.POST['rut'], puntaje_psu=request.POST['puntaje_psu'], username=request.POST['username'], password=request.POST['password'], email=request.POST['email']);	new_user.save()
+                new_user.save()
